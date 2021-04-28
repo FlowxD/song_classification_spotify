@@ -1,8 +1,0 @@
-playlists 
-
-test=2xRzgHoobGMPiWNGuG5Lfn
-lofi=37i9dQZF1DXc8kgYqQLMfH
- x  trap=0NCspsyf0OS4BsPgGhkQXM
-rap=2G2zkK3cBVXB1jSsDMQSk3
-pop=5EwfCDWx2TrZ0qa3xXixUS
-[{'danceability': 0.606, 'energy': 0.353, 'key': 5, 'loudness': -14.524, 'mode': 1, 'speechiness': 0.426, 'acousticness': 0.486, 'instrumentalness': 0.911, 'liveness': 0.448, 'valence': 0.793, 'tempo': 99.854, 'type': 'audio_features', 'id': '6yQAEsafS2M3BAkZD5rk7Q', 'uri': 'spotify:track:6yQAEsafS2M3BAkZD5rk7Q', 'track_href': 'https://api.spotify.com/v1/tracks/6yQAEsafS2M3BAkZD5rk7Q', 'analysis_url': 'https://api.spotify.com/v1/audio-analysis/6yQAEsafS2M3BAkZD5rk7Q', 'duration_ms': 59195, 'time_signature': 5}]
