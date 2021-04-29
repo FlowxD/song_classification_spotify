@@ -14,7 +14,7 @@ import pickle
 model2 = pickle.load(open('spotify_model.pkl','rb'))
 
 
-client_credentials_manager = oauth2.SpotifyClientCredentials(client_id='5e22c02862e0444aac0351ee2aca9e2b', client_secret='dd2407b5b3984fa38bf707b883e34bea')
+client_credentials_manager = oauth2.SpotifyClientCredentials(client_id='5e22c02862e0444aac0351ee2aca9exx', client_secret='dd2407b5b3984fa38bf707b883e34bxx')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
 user_input_song_id = st.text_input("Enter song ID", '5eflbiBkMjtAlgkjiPXU9A')
