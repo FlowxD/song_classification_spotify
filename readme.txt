@@ -10,4 +10,6 @@ Trained with XGB
 
 Class 1 = Lofi , 2 = 0mDXyliesdhZVh98MImFkx , 3 = Rock
 
+CrossValidation accuracy ~ 87%
+
 Keys are masked refer google notes
