@@ -9,3 +9,5 @@ Rock - 3Ho3iO0iJykgEQNbjB2sic , 1GXRoQWlxTNQiMNkOe7RqA
 Trained with XGB 
 
 Class 1 = Lofi , 2 = 0mDXyliesdhZVh98MImFkx , 3 = Rock
+
+Keys are masked refer google notes
