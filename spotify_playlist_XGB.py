@@ -195,6 +195,30 @@ pickle.dump(model, open(r'D:\Proj\spotify_model.pkl', 'wb'))
 #model2 = pickle.load(open(r'D:\Proj\spotify_model.pkl', 'rb'))
 
 
+
+
+
+
+#Corssvalidation 
+
+from sklearn.model_selection import KFold
+model=XGBClassifier()
+kfold_validation=KFold(10)
+
+
+
+import numpy as np
+from sklearn.model_selection import cross_val_score
+results=cross_val_score(model,X,Y,cv=kfold_validation)
+print(results)
+print(np.mean(results))
+
+
+
+
+
+
+
 '''
 #Test song individually
 
