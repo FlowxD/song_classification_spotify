@@ -6,8 +6,8 @@ import spotipy.oauth2 as oauth2
 def generate_token():
     """ Generate the token. Please respect these credentials :) """
     credentials = oauth2.SpotifyClientCredentials(
-        client_id='5e22c02862e0444aac0351ee2aca9e2b',
-        client_secret='dd2407b5b3984fa38bf707b883e34bea')
+        client_id='5e22c02862e0444aac0351ee2aca9exx',
+        client_secret='dd2407b5b3984fa38bf707b883e34bxx')
     token = credentials.get_access_token()
     return token
 
@@ -45,7 +45,7 @@ def write_tracks(text_file, tracks):
     df_s = pd.DataFrame(columns=columns)
     for id in ids:
         
-        client_credentials_manager = oauth2.SpotifyClientCredentials(client_id='5e22c02862e0444aac0351ee2aca9e2b', client_secret='dd2407b5b3984fa38bf707b883e34bea')
+        client_credentials_manager = oauth2.SpotifyClientCredentials(client_id='5e22c02862e0444aac0351ee2aca9exx', client_secret='dd2407b5b3984fa38bf707b883e34bxx')
         sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
         features = sp.audio_features(id)
         print(features)
